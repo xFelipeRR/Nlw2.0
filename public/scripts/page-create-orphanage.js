@@ -6,7 +6,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map)
 
 // create icon
 const icon = L.icon({
-    iconUrl: "./public/images/map-marker.svg",
+    iconUrl: "/images/map-marker.svg",
     iconSize: [58, 68],
     iconAnchor: [29, 68]
 })
@@ -49,7 +49,7 @@ function addPhotoField(){
 
 function deleteField(event){
     const span = event.currentTarget
-
+    
     const fieldsContainer = document.querySelectorAll(".new-upload")
 
     if(fieldsContainer.length < 2){
