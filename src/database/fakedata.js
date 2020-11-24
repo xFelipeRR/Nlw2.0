@@ -12,12 +12,12 @@ module.exports = [
         ],
         instructions:"Venha como se sentir a vontade e traga muito amor e paciência para dar.",
         opening_hours:"Horários de visitas Das 8h até 18h",
-        open_on_weekends: 1
+        open_on_weekends: "1"
         
 
     },
     {
-        id: 2,
+        id: "2",
         lat: "-4.1327695",
         lng: "-38.244493",
         name: "Lar dos Meninos",

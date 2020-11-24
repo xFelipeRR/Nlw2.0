@@ -80,12 +80,14 @@ main{
     margin: 6.4rem 0;
 }
 
+.orphanage-details-content h1,
 .orphanage-details-content h2{
     font-size: 3.6rem;
     line-height: 1.5;
 
     color: #4D6F80;
 }
+
 
 .open-details{
     margin-top: 2.4rem;
