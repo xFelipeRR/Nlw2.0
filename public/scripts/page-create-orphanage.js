@@ -89,3 +89,13 @@ function toggleSelect(event){
 
 }
 
+function validate(event){
+
+    // validar se lat e lng estão preenchidos
+    const needsLatandLng = false
+    if(needsLatandLng){
+        event.preventDefault()
+        alert('Marque o local do orfanato')
+    }
+    
+}

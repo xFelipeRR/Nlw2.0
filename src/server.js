@@ -6,6 +6,8 @@ const server = express()
 
 
 server
+// utilizando o body da req
+.use(express.urlencoded({ extended: true }))
 .use(express.static('public'))
 
 // configurar template engine
@@ -17,5 +19,6 @@ server
 .get('/orphanage', pages.orphanage)
 .get('/orphanages', pages.orphanages)
 .get('/create-orphanage', pages.createOrphanage)
+.post('/save-orphanage', pages.saveOrphanage)
 // start do servidor
 server.listen(5500)
